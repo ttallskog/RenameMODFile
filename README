@@ -1,0 +1,11 @@
+This program helps you to rename video files from JVC harddisk video camera.
+
+The JVC creates a .MOI and .MOD file with the same name for every movie that you record:
+- .MOI contains information about .MOD
+- .MOD contains video content.
+and the files are stored in a folder. Every folder can only contain max 100 .MOI and 100 .MOD and after that a new directory is created and the filenames are repeated. 
+
+This program read 1 or more source directories and output in a destination directory.
+user$ gcc RenameMODFile.c -o RenameMODFile
+user$ ReadMODFile source [...] destination
+this will rename the PRGxxx.MOD with date infromation from PRGxxx.MOI to yyyymmddThhmm.MOD and put the file in the destination directory.
