@@ -14,7 +14,8 @@
 
 #define moiFileSuffix ".MOI"
 #define modFileSuffix ".MOD"
-/*Hejhopp*/
+/*Hejhopp
+more comments*/
 int MoveFile(const char *source, const char *destination)
 {
    int result = 0;
